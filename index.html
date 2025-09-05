@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rabiatu A.M.A</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>body {
+  background: #111111; /* black */
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #FFD700; /* gold */
+}
+.container {
+  background: #181818; /* very dark */
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.23);
+  padding: 36px 28px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border: 2px solid #FFD700; /* gold */
+}
+h1 {
+  margin: 0 0 4px 0;
+  font-size: 1.7em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #FFD700;
+}
+.subtitle {
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 18px;
+  color: #FFC300;
+}
+.section-title {
+  margin: 24px 0 8px 0;
+  font-size: 1.1em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #FFD700;
+}
+.about-text {
+  font-size: 0.98em;
+  color: #fffbe7;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.skills-list {
+  display: flex;
+  gap: 18px;
+  justify-content: flex-start;
+  margin: 0 0 18px 0;
+  padding: 0;
+  list-style: none;
+}
+.skills-list li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 1em;
+  color: #FFD700;
+}
+.projects {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.project-card {
+  background: #222;
+  border-radius: 8px;
+  padding: 10px 8px;
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+  color: #FFD700;
+  box-shadow: 0 2px 8px rgba(255,215,0,0.08);
+}
+.project-title {
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 2px;
+  color: #FFD700;
+}
+.project-desc {
+  font-size: 0.93em;
+  margin-bottom: 6px;
+  color: #fffbe7;
+}
+.project-link {
+  font-size: 0.93em;
+  color: #FFD700;
+  text-decoration: none;
+  font-weight: 500;
+}
+.project-link:hover {
+  color: #FFC300;
+  text-decoration: underline; 
+}
+.contact {
+  margin-top: 18px;
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+}
+.contact a {
+  color: #FFD700;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.contact a:hover {
+  color: #FFC300;
+
+  @media (max-width: 500px) {
+  .container {
+    padding: 18px 6px;
+    max-width: 100%;
+  }
+  .projects {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+}
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <img src="https://res.cloudinary.com/dff9xiiqn/image/upload/v1756585687/IMG_E5853_1_olm7xg.jpg" alt="Profile Photo" class="avatar">
+    <h1>Rabiatu A.M.A</h1>
+    <div class="subtitle">Frontend Developer &amp; Cybersecurity Enthusiast</div>
+    
+    <div class="section-title">ABOUT ME:</div>
+    <div class="about-text">
+      Hi! I'm Rabiatu, passionate about web development and cybersecurity.<br>
+      I love building beautiful, functional websites and learning about digital security.<br>
+    </div>
+    
+    <div class="section-title">SKILLS</div>
+    <ul class="skills-list">
+      <li><i class="fab fa-html5" style="color:#e34c26;"></i> HTML</li>
+      <li><i class="fab fa-css3-alt" style="color:#2965f1;"></i> CSS</li>
+      <li><i class="fas fa-shield-alt" style="color:#6c63ff;"></i> Ethical Hacking</li>
+    </ul>
+    
+    <div class="section-title">PROJECTS</div>
+    <div class="projects">
+      <div class="project-card">
+        <div class="project-title">Project One</div>
+        <div class="project-desc"> None for now.</div>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+      <div class="project-card">
+        <div class="project-title">Project Two</div>
+        <div class="project-desc"> None for now.</div>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+    </div>
+    
+    <div class="section-title" style="text-align:center;">CONTACT</div>
+    <div class="contact">
+      <a href="mailto:aam.rabiatu@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://discord.com/users/tita.001" target="_blank" title="Discord"><i class="fab fa-discord"></i></a>
+      <a href="https://github.com/titaa1" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    </div>
+  </div>
+</body>
+</html>
